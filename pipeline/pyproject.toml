@@ -1,0 +1,15 @@
+[project]
+name = "polarice"
+version = "0.1.0"
+description = "Data pipeline for polar-ice-dynamics: fetches and processes sea-ice and ice-sheet data"
+requires-python = ">=3.11"
+dependencies = [
+    "xarray",
+    "rasterio",
+    "rio-cogeo",
+    "pandas",
+    "requests",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
