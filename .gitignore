@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Node / Vite
+node_modules/
+site/dist/
+
+# Local data downloads (real data lives on the `data` branch)
+/data/
+*.nc
+*.tif
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+# Scheduled job: fetch NSIDC + GFZ data, process it, commit results to the `data` branch.
+name: Update data
+on:
+  workflow_dispatch:
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Data pipeline not implemented yet"
